@@ -1,0 +1,54 @@
+﻿﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="JavaScript.js"></script>
+    <link href="JavascriptDemo.css" rel="stylesheet" />
+    <!--<script>
+        alert("Ciao a tutte");
+    </script>-->
+</head>
+<body onload="demoOnLoad()">
+
+    <!--<script>
+        alert("Ciao ciao");
+        demo();
+    </script>-->
+    <!--On click-->
+    <button onclick="demoOnClick()">Cliccami!</button>
+
+    <!--On mouse ...-->
+    <div id="bgchange" onmouseover="this.style.backgroundColor = 'magenta'" onmouseout="this.style.backgroundColor ='green'"><p>Ciao</p></div>
+
+    <!--On key down-->
+    <input type="text" onkeydown="demoOnKeyDown()" />
+
+    <!--On change-->
+    <p>Seleziona il tuo ruolo</p>
+    <select onchange="demoOnChange()">
+        <option value="">Seleziona un ruolo</option>
+        <option value="Manager">Manager</option>
+        <option value="Developer">Sviluppatore</option>
+    </select>
+
+    <br /><br />
+
+    <!--Selettori-->
+    <!--Check-box che si può spuntare se (per es.) un oggetto è disponibile-->
+    <label><input id="available" type="checkbox" onchange="checkSelection()" /></label>
+
+    <br /> <br />
+
+    <!--Quando il contenuto del campo username viene popolato, compare il tasto salva-->
+    <label>Username</label>
+    <input class="username" type="text" onchange="changeButton()" /> <!-- cambiare la funziona da chiamare -->
+
+    <input id="submit" type="submit" value="Salva" />
+
+    <br />
+
+    <input id="submit2" type="submit" disabled="disabled" value="Salva" />
+</body>
+</html>

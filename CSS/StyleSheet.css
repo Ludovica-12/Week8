@@ -1,0 +1,142 @@
+﻿body {
+}
+
+#logo {
+    width: 100px;
+}
+
+.nomeHotel {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    color: burlywood;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.navigation {
+    font-family: cursive;
+    text-align: right;
+    margin-bottom: 5px;
+    background-color:burlywood;
+}
+
+@media screen and (max-width: 1200px) {
+    .navigation 
+    {
+        overflow: hidden;
+    }
+
+    .navigation a 
+    {
+        display: block!important;
+        text-align: left;
+    }
+
+    .prenotahotel {
+        display: none;
+    }
+}
+
+.navigation a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.Hotel {
+    width: 100%;
+}
+
+.descHotel {
+    display: inline;
+    font-family: cursive;
+    text-align: justify;
+}
+
+.cameraLetto {
+    width: 20%;
+    display: inline;
+}
+
+.tabella {
+    border: 1px solid burlywood;
+    font-family: cursive;
+}
+
+.bottone {
+    background-color: aqua;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.prima {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+    .prima:hover {
+        cursor: pointer;
+        background-color: burlywood;
+    }
+
+.seconda {
+    text-align: center;
+    background-color: burlywood;
+}
+
+.seconda:hover {
+        cursor: pointer;
+        background-color: antiquewhite;
+}
+
+.information {
+    display: inline-block;
+}
+
+.campo {
+    display: block;
+    margin: 5px;
+    font-family: cursive;
+}
+
+.qui p {
+    font-size: 15px;
+    font-family: cursive;
+    color: red;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    top: 10px;
+    left: 30px;
+}
+
+span {
+    color: red;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.bottonelog {
+    display:flex;
+    text-align: end;
+    justify-content: flex-end;
+}
+
+.bottonelog  button{
+    background-color: aqua;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 15px;
+
+}
+
+footer {
+    text-align: right;
+    font-size: 20px;
+    margin-left: 10px;
+    line-height: 50px;
+}

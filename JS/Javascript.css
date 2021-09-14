@@ -1,0 +1,11 @@
+﻿body
+{
+}
+
+#bgchange {
+    background-color: yellow;
+}
+
+#submit {
+    visibility: hidden;
+}
